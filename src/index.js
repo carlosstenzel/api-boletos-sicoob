@@ -14,7 +14,7 @@ const coopCartao = "";
 const chaveAcessoWeb = "";
 // numero da conta corrente
 const numContaCorrente = "";
-// codigo municipio
+// codigo municipio *(ver file codMunicipio.xls)
 const codMunicipio = "";
 
 // Configura para receber dados via json
