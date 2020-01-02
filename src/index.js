@@ -3,6 +3,20 @@ const express = require('express');
 // Inicia
 const server = express();
 
+/**
+ * Configs
+ */
+// numero do cliente
+const numCliente = "";
+// numero da agencia
+const coopCartao = "";
+// chave de acesso
+const chaveAcessoWeb = "";
+// numero da conta corrente
+const numContaCorrente = "";
+// codigo municipio
+const codMunicipio = "";
+
 // Configura para receber dados via json
 server.use(express.json());
 
