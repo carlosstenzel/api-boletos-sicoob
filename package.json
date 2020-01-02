@@ -1,0 +1,25 @@
+{
+  "name": "api-boletos-sicoob",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "Carlos Stenzel",
+    "email": "carlosstenzel@hotmail.com",
+    "url": "https://carlosstenzel.com/"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
