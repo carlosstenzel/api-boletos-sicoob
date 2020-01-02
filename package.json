@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "description": "",
+  "description": "Api em node.js para emisão de boletos do sicoob com registro online",
   "repository": {
     "type": "git",
     "url": ""
@@ -14,7 +14,7 @@
     "url": "https://carlosstenzel.com/"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon src/index.js"
   },
   "dependencies": {
     "express": "^4.17.1"
