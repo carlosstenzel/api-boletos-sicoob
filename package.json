@@ -17,6 +17,7 @@
     "start": "nodemon src/index.js"
   },
   "dependencies": {
+    "dateformat": "^3.0.3",
     "express": "^4.17.1",
     "request": "^2.88.0"
   },
