@@ -1,4 +1,5 @@
-const express = require('express');
+const express = require("express");
+const request = require("request");
 
 // Inicia
 const server = express();
@@ -15,13 +16,33 @@ const chaveAcessoWeb = "";
 // numero da conta corrente
 const numContaCorrente = "";
 // codigo municipio *(ver file codMunicipio.xls)
-const codMunicipio = "";
+const codMunicipio = "d";
 
 // Configura para receber dados via json
 server.use(express.json());
 
-server.post('/emiteboleto/', (req, res) => {
+server.get("sicooblogo.gif", (req, res) => {
+  res.send(sicooblogoddd.gif)
+});
 
+server.post("/emiteboleto/", (req, res) => {
+  const data = JSON.stringify({
+    numCliente,
+    coopCartao,
+    chaveAcessoWeb,
+    codMunicipio
+  });
+
+  request.post(
+    {
+      url: "https://geraboleto.sicoobnet.com.br/geradorBoleto/GerarBoleto.do",
+      formData: data
+    },
+    function optionalCallback(err, httpResponse, body) {
+ 
+      res.send(body.toString().replace('img src="', 'img src="https://geraboleto.sicoobnet.com.br/geradorBoleto/'));
+    }
+  );
 });
 
 server.listen(3001);
