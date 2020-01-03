@@ -1,6 +1,6 @@
 const express = require("express");
 const request = require("request");
-const dateFormat = require('dateformat');
+const dateFormat = require("dateformat");
 
 // Inicia
 const server = express();
@@ -42,7 +42,22 @@ server.post("/emiteboleto/", (req, res) => {
     dataEmissao
   });
 
-  
+  request.post(
+    {
+      url: "https://geraboleto.sicoobnet.com.br/geradorBoleto/GerarBoleto.do",
+      formData: data
+    },
+    function optionalCallback(err, httpResponse, body) {
+      res.send(
+        body
+          .toString()
+          .replace(
+            'img src="',
+            'img src="https://geraboleto.sicoobnet.com.br/geradorBoleto/'
+          )
+      );
+    }
+  );
 });
 
 server.listen(3001);
