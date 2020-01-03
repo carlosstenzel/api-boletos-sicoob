@@ -33,8 +33,8 @@ codMunicipio
 codEspDocumento
   - Document Type Code
   - Max size 5
-  - DM -> Duplicata Mercantil
-    CH -> Cheque
-    DS -> Duplicata de Serviço
-    PC -> Parcela de Consório
-    OU -> Outros
+  DM -> Duplicata Mercantil
+  CH -> Cheque
+  DS -> Duplicata de Serviço
+  PC -> Parcela de Consório
+  OU -> Outros
