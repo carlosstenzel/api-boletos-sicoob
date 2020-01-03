@@ -39,7 +39,9 @@ server.post("/emiteboleto/", (req, res) => {
     bolRecebeBoletoEletronico: "1",
     email: "",
     codEspDocumento: "DS",
-    dataEmissao
+    dataEmissao,
+    seuNumero:"",
+
   });
 
   request.post(
