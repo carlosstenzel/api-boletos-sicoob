@@ -16,14 +16,10 @@ const chaveAcessoWeb = "";
 // numero da conta corrente
 const numContaCorrente = "";
 // codigo municipio *(ver file codMunicipio.xls)
-const codMunicipio = "d";
+const codMunicipio = "";
 
 // Configura para receber dados via json
 server.use(express.json());
-
-server.get("sicooblogo.gif", (req, res) => {
-  res.send(sicooblogoddd.gif)
-});
 
 server.post("/emiteboleto/", (req, res) => {
   const data = JSON.stringify({
