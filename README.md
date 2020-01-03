@@ -18,6 +18,13 @@ chaveAcessoWeb
   - Ex(XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
   
 numContaCorrente
-  - Number account
+  - Number account (With digit)
   - Max size 15
   - Only numbers
+
+codMunicipio
+  - City code (View File codMunicipio.xls)
+  - Max size 15
+  - Only number
+
+
