@@ -30,7 +30,7 @@ codMunicipio
   - Max size 15
   - Only number
 
-codEspDocumento
+**codEspDocumento**
   - Document Type Code
   - Max size 5
   - [x] DM = Duplicata Mercantil
