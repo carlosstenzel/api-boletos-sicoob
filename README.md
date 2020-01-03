@@ -1,5 +1,8 @@
 # api-boletos-sicoob
 
+This api serves to assist in its implementation in other systems.
+
+All fields required to submit
 # Fields
 
 numCliente
@@ -27,4 +30,11 @@ codMunicipio
   - Max size 15
   - Only number
 
-
+codEspDocumento
+  - Document Type Code
+  - Max size 5
+  - DM -> Duplicata Mercantil
+    CH -> Cheque
+    DS -> Duplicata de Serviço
+    PC -> Parcela de Consório
+    OU -> Outros
