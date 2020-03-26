@@ -1,4 +1,5 @@
-# api-boletos-sicoob
+# API para boletos do sicoob
+Api em node.js para emisão de boletos do sicoob com registro online 
 
 This api serves to assist in its implementation in other systems.
 

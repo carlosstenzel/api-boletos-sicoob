@@ -1,12 +1,12 @@
 {
   "name": "api-boletos-sicoob",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "description": "Api em node.js para emisão de boletos do sicoob com registro online",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/carlosstenzel/api-boletos-sicoob"
   },
   "author": {
     "name": "Carlos Stenzel",
