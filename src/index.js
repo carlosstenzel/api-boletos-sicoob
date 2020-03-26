@@ -7,6 +7,7 @@ const server = express();
 
 /**
  * Configs
+ * Solicite os demais dados para sua cooperativa para que possa implementar o mesmo.
  */
 // numero do cliente
 const numCliente = "";
